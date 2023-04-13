@@ -1,0 +1,26 @@
+# ninja log v5
+0	760	7031057439669786	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+266	762	7031057439669786	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+763	940	7031057441391640	Vector.exe	63a150c74edc6981
+3	123	7031058091151697	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+124	298	7031058092818581	Vector.exe	63a150c74edc6981
+5	137	7031058200512654	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+138	304	7031058202090922	Vector.exe	63a150c74edc6981
+4	130	7031058367101325	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+131	298	7031058368690729	Vector.exe	63a150c74edc6981
+3	889	7031065673943150	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+890	1585	7031065680805136	Vector.exe	63a150c74edc6981
+3	171	7031066219720466	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+16	172	7031066219720466	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+172	346	7031066221397447	Vector.exe	63a150c74edc6981
+14	164	7031068185512037	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+3	165	7031068185486358	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+166	336	7031068187124828	Vector.exe	63a150c74edc6981
+3	131	7031068303123801	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+132	340	7031068304787687	Vector.exe	63a150c74edc6981
+3	145	7031068967546059	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+18	149	7031068967590628	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+150	335	7031068969368375	Vector.exe	63a150c74edc6981
+3	136	7031069262174563	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+15	142	7031069262239994	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+142	329	7031069264027823	Vector.exe	63a150c74edc6981

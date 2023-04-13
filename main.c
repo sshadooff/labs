@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include "libs\data_structures\vector\vector.h"
 
 int main() {
-    printf("Hello, World!\n");
+    Vector v = creatVector(SIZE_MAX);
+
     return 0;
 }

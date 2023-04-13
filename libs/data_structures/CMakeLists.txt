@@ -1,1 +1,1 @@
-add_library(data_source vector/vector.c)
+add_library(data_structures vector/vector.c)
