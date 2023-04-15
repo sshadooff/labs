@@ -127,12 +127,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "libs/data_structures/vector/voidVector.c",
+			"path" : "libs/data_structures/vector/vectorVoid.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "libs/data_structures/vector/voidVector.h",
+			"path" : "libs/data_structures/vector/vectorVoid.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -2,3 +2,10 @@
 3	135	7031123677860514	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
 14	179	7031123678293581	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
 180	436	7031123680372629	Vector.exe	63a150c74edc6981
+1	334	7032797902574460	build.ninja	91f4e2abd70f792b
+9	293	7032797905925166	CMakeFiles/Vector.dir/libs/data_structures/vector/vectorVoid.c.obj	6c42b0fe0fc3dc87
+2	294	7032797905915174	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+5	294	7032797905935149	CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj	4629b1c46cb982c0
+294	653	7032797909468917	Vector.exe	7d6ab9cbdd3990a1
+2	70	7032799281271549	CMakeFiles/Vector.dir/main.c.obj	6c80563983ac7c52
+70	165	7032799282159292	Vector.exe	7d6ab9cbdd3990a1

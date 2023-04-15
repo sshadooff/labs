@@ -61,8 +61,8 @@ build CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER
   OBJECT_DIR = CMakeFiles\Vector.dir
   OBJECT_FILE_DIR = CMakeFiles\Vector.dir\libs\data_structures\vector
 
-build CMakeFiles/Vector.dir/libs/data_structures/vector/voidVector.c.obj: C_COMPILER__Vector_Debug C$:/CLion$ Projects/Vector/libs/data_structures/vector/voidVector.c || cmake_object_order_depends_target_Vector
-  DEP_FILE = CMakeFiles\Vector.dir\libs\data_structures\vector\voidVector.c.obj.d
+build CMakeFiles/Vector.dir/libs/data_structures/vector/vectorVoid.c.obj: C_COMPILER__Vector_Debug C$:/CLion$ Projects/Vector/libs/data_structures/vector/vectorVoid.c || cmake_object_order_depends_target_Vector
+  DEP_FILE = CMakeFiles\Vector.dir\libs\data_structures\vector\vectorVoid.c.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Vector.dir
   OBJECT_FILE_DIR = CMakeFiles\Vector.dir\libs\data_structures\vector
@@ -75,7 +75,7 @@ build CMakeFiles/Vector.dir/libs/data_structures/vector/voidVector.c.obj: C_COMP
 #############################################
 # Link the executable Vector.exe
 
-build Vector.exe: C_EXECUTABLE_LINKER__Vector_Debug CMakeFiles/Vector.dir/main.c.obj CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/Vector.dir/libs/data_structures/vector/voidVector.c.obj
+build Vector.exe: C_EXECUTABLE_LINKER__Vector_Debug CMakeFiles/Vector.dir/main.c.obj CMakeFiles/Vector.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/Vector.dir/libs/data_structures/vector/vectorVoid.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Vector.dir

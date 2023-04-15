@@ -44,3 +44,46 @@ void deleteVectorV(vectorVoid *v) {
     v->size = 0;
     v->capacity = 0;
 }
+
+bool isEmptyV(vectorVoid *v) {
+    return v->size == 0;
+}
+
+bool isFullV(vectorVoid *v) {
+    return v->size == v->capacity;
+}
+
+void getVectorValueV(vectorVoid *v, size_t index, void *destination) {
+    char *source = (char *) v->data + index * v->baseTypeSize;
+    memcpy(destination, source, v->baseTypeSize);
+}
+
+void setVectorValueV(vectorVoid *v, size_t index, void *source) {
+    char *destination = (char *) v->data + index * v->baseTypeSize;
+    memcpy(destination, source, v->baseTypeSize);
+
+    if (index >= v->size) {
+        fprintf(stderr, "Wrong value: index = %llu", index);
+        exit(1);
+    }
+}
+
+void popBackV(vectorVoid *v) {
+    if (isEmptyV(v)) {
+        fprintf(stderr, "bad alloc");
+        exit(1);
+    }
+
+    v->size--;
+}
+
+void pushBackV(vectorVoid *v, void *source) {
+    if (v->capacity == 0)
+        v->capacity++;
+    else if (isFullV(v))
+        reserveV(v, 2 * v->capacity);
+
+    char *destination = (char *) v->data + v->size++ * v->baseTypeSize;
+    memcpy(destination, source, v->baseTypeSize);
+}
+
