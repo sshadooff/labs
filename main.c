@@ -14,12 +14,5 @@ void test() {
 int main() {
     test();
 
-    vectorVoid v = {
-            0,
-            3,
-            6,
-            sizeof(int)
-    };
-
     return 0;
 }
