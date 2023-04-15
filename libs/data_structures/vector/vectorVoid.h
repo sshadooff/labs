@@ -31,12 +31,20 @@ bool isFullV(vectorVoid *v);
 
 void getVectorValueV(vectorVoid *v, size_t index, void *destination);
 
+void test_getVectorValueV_emptyVector();
+
 void setVectorValueV(vectorVoid *v, size_t index, void *source);
+
+void test_setVectorValueV_emptyVector();
 
 void popBackV(vectorVoid *v);
 
 void pushBackV(vectorVoid *v, void *source);
 
+void test_pushBackV_emptyVector();
 
+void test_pushBackV_fullVector();
+
+void test_popBackV_notEmptyVector();
 
 #endif //MAIN_C_VECTORVOID_H

@@ -9,28 +9,16 @@ void test() {
     test_atVector_requestToLastElement();
     test_back_oneElementInVector();
     test_front_oneElementInVector();
+
+    test_getVectorValueV_emptyVector();
+    test_setVectorValueV_emptyVector();
+    test_pushBackV_emptyVector();
+    test_pushBackV_fullVector();
+    test_popBackV_notEmptyVector();
 }
 
 int main() {
     test();
-
-    size_t n;
-    scanf("%zd", &n);
-    vectorVoid v = creatVectorV(0, sizeof(float));
-
-    for (int i = 0; i < n; i++) {
-        float x;
-        scanf("%f", &x);
-
-        pushBackV(&v, &x);
-    }
-
-    for (int i = 0; i < n; i++) {
-        float x;
-        getVectorValueV(&v, i, &x);
-
-        printf("%f ", x);
-    }
 
     return 0;
 }
