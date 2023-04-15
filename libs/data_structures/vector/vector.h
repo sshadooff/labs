@@ -41,11 +41,11 @@ void popBack(Vector *v);
 
 void test_popBack_notEmptyVector();
 
-int* atVector(Vector *v, size_t index);
+int *atVector(Vector *v, size_t index);
 
-int* back(Vector *v);
+int *back(Vector *v);
 
-int* front(Vector *v);
+int *front(Vector *v);
 
 void test_atVector_notEmptyVector();
 

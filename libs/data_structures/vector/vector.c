@@ -1,7 +1,7 @@
 #include "vector.h"
 
 Vector creatVector(size_t n) {
-    int *data = (int*)malloc(sizeof(int) * n);
+    int *data = (int *) malloc(sizeof(int) * n);
 
     if (data == NULL) {
         fprintf(stderr, "bad alloc");
@@ -9,9 +9,9 @@ Vector creatVector(size_t n) {
     }
 
     return (Vector) {
-        data,
-        0,
-        n
+            data,
+            0,
+            n
     };
 }
 
@@ -22,7 +22,7 @@ void reserve(Vector *v, size_t newCapacity) {
     if (newCapacity < v->size)
         v->size = newCapacity;
 
-    v->data = (int*) realloc(v->data, sizeof(int) * newCapacity);
+    v->data = (int *) realloc(v->data, sizeof(int) * newCapacity);
     if (v->data == NULL) {
         fprintf(stderr, "bad alloc");
         exit(1);
@@ -125,7 +125,7 @@ void test_popBack_notEmptyVector() {
     assert(v.capacity == 2);
 }
 
-int* atVector(Vector *v, size_t index) {
+int *atVector(Vector *v, size_t index) {
     if (index > v->size) {
         fprintf(stderr, "IndexError: a[%llu] is not exists", index);
         exit(1);
@@ -134,11 +134,11 @@ int* atVector(Vector *v, size_t index) {
     return v->data + index;
 }
 
-int* back(Vector *v) {
+int *back(Vector *v) {
     return v->data + v->size - 1;
 }
 
-int* front(Vector *v) {
+int *front(Vector *v) {
     return v->data;
 }
 
